@@ -6,7 +6,7 @@ import { AnimatedSparkles } from "@/components/animated-sparkles";
 
 export default function LoyaltyProgram() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-dd-cream via-white to-orange-50 font-inter">
+    <div className="min-h-screen bg-gradient-to-br from-dd-cream via-white to-dd-cream font-inter">
       {/* Navigation Header */}
       <header className="bg-white shadow-sm sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -90,7 +90,7 @@ export default function LoyaltyProgram() {
       </section>
 
       {/* Countdown Banner: Pre-launch Teaser */}
-      <section className="bg-gradient-to-r from-dd-yellow via-orange-400 to-dd-orange py-16">
+      <section className="bg-gradient-to-r from-dd-yellow via-dd-orange to-dd-red py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="space-y-8">
             <div className="space-y-4">
@@ -116,7 +116,7 @@ export default function LoyaltyProgram() {
       </section>
 
       {/* Launch Week Offer Banner */}
-      <section className="bg-gradient-to-br from-dd-red via-pink-500 to-dd-orange py-20 relative overflow-hidden">
+      <section className="bg-gradient-to-br from-dd-red via-dd-orange to-dd-yellow py-20 relative overflow-hidden">
         {/* Animated background elements */}
         <div className="absolute inset-0">
           <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-transparent via-white/5 to-transparent animate-pulse"></div>
@@ -226,7 +226,7 @@ export default function LoyaltyProgram() {
             {/* Step 2: Earn */}
             <div className="text-center group">
               <div className="relative mb-8">
-                <div className="w-32 h-32 mx-auto bg-gradient-to-br from-dd-yellow to-orange-400 rounded-full flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform duration-300">
+                <div className="w-32 h-32 mx-auto bg-gradient-to-br from-dd-yellow to-dd-orange rounded-full flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform duration-300">
                   <Coins className="text-white w-16 h-16 animate-bounce-slow" />
                 </div>
                 <div className="absolute -top-2 -right-2 w-8 h-8 bg-dd-red rounded-full flex items-center justify-center shadow-lg">
@@ -252,7 +252,7 @@ export default function LoyaltyProgram() {
             {/* Step 3: Redeem */}
             <div className="text-center group">
               <div className="relative mb-8">
-                <div className="w-32 h-32 mx-auto bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform duration-300">
+                <div className="w-32 h-32 mx-auto bg-gradient-to-br from-dd-yellow to-dd-orange rounded-full flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform duration-300">
                   <Gift className="text-white w-16 h-16" />
                 </div>
                 <div className="absolute -top-2 -right-2 w-8 h-8 bg-dd-orange rounded-full flex items-center justify-center shadow-lg">
@@ -266,7 +266,7 @@ export default function LoyaltyProgram() {
                 </p>
                 <Card className="bg-dd-cream/50 rounded-2xl p-4 max-w-xs mx-auto">
                   <div className="text-sm text-dd-brown">
-                    <Star className="inline text-green-500 mr-1 w-4 h-4" />
+                    <Star className="inline text-dd-yellow mr-1 w-4 h-4" />
                     <span className="font-semibold">500 Points = Free Sweet Box</span>
                   </div>
                 </Card>
@@ -285,7 +285,7 @@ export default function LoyaltyProgram() {
       </section>
 
       {/* Benefits Showcase */}
-      <section className="py-16 bg-gradient-to-r from-dd-brown to-amber-900">
+      <section className="py-16 bg-gradient-to-r from-dd-brown to-dd-orange">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div className="space-y-4">
@@ -313,7 +313,7 @@ export default function LoyaltyProgram() {
             </div>
             
             <div className="space-y-4">
-              <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto shadow-lg">
+              <div className="w-16 h-16 bg-dd-yellow rounded-full flex items-center justify-center mx-auto shadow-lg">
                 <Truck className="text-white w-8 h-8" />
               </div>
               <h3 className="font-poppins font-bold text-white text-lg">Free Shipping</h3>
